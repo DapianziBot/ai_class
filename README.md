@@ -3,11 +3,25 @@
 ## 介绍
 基于深度学习的练习项目
 
-## 运行环境
-Python 3.8+(推荐)
+## 运行环境 & 入门推荐
+1. 安装Python(推荐 3.8+)
 + Windows
 + MacOS/Linux 系统部分软件依赖`python2.7`,建议将新安装的python3版本命名为`python3`or`python3.x`
-
+2. 运行第一个python程序
+```python
+print('Hello world!')
+```
+3. 安装并运行`tensorflow`/`pytorch`或者其他框架
+    + [TensorFlow](https://www.tensorflow.org/tutorials/quickstart/beginner)
+    ```python
+    import tensorflow as tf
+    ```    
+    + [PyTorch](https://pytorch.org/get-started/locally/)
+    ```python
+    import torch
+    x = torch.rand(5, 3)
+    print(x) 
+   ```
 
 ## 协作工具
 
