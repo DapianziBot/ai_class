@@ -26,12 +26,16 @@ print('Hello world!')
 ## 协作工具
 
 + #### Git 
-    为什么要使用Git？
-    + 提供代码托管仓库，可随时拉取完整项目代码
-    + 合并不同同学对项目的更改
-    + 记录项目版本，可随时回退至指定的历史版本
+    + 为什么要使用Git？
+        + 提供代码托管仓库，可随时拉取完整项目代码
+        + 合并不同同学对项目的更改
+        + 记录项目版本，可随时回退至指定的历史版本
     
-    [Git 常用操作步骤举例](./docs/git.md)
+    + [Git 常用操作步骤举例](./docs/git.md)
+    + Git 教程 (感谢李锡铭同学提供)
+        + [从0开始学习GitHub系列.pdf](./docs/从0开始学习GitHub系列.pdf)
+        + [【狂神说Java】Git最新教程通俗易懂](https://www.bilibili.com/video/BV1FE411P7B3)
+        + [【编程三分钟】Git + GitHub 10分钟完全入门](https://www.bilibili.com/video/BV1KD4y1S7FL)
 
     
 + #### 代码编辑器
