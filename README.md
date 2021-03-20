@@ -3,6 +3,13 @@
 ## 介绍
 基于深度学习的练习项目
 
+## 小作业
++ PCA算法实现
+    + [PCA 降维算法 —— 原理与实现 -- 知乎](https://zhuanlan.zhihu.com/p/36546123)
++ 数据预处理
+    + [整理一份详细的数据预处理方法 -- 知乎](https://zhuanlan.zhihu.com/p/51131210)
+    + [2.1.1 数据清洗 -- 清华大学-数据挖掘：理论与算法](https://www.bilibili.com/video/BV154411Q7mG?p=11)
+
 ## 运行环境 & 入门推荐
 1. 安装Python(推荐 3.8+)
 + Windows
@@ -38,10 +45,3 @@
     + `vs code` 宇宙第一IDE。。(自带git)
         + [vscode 官方下载地址](https://code.visualstudio.com/download)
     + 其他..
-
-+ #### 作业1
-    + PCA算法实现
-        + [PCA 降维算法 —— 原理与实现 -- 知乎](https://zhuanlan.zhihu.com/p/36546123)
-    + 数据预处理
-        + [整理一份详细的数据预处理方法 -- 知乎](https://zhuanlan.zhihu.com/p/51131210)
-        + [2.1.1 数据清洗 -- 清华大学-数据挖掘：理论与算法](https://www.bilibili.com/video/BV154411Q7mG?p=11)
