@@ -12,6 +12,8 @@
     4. `conda env remove -name myEnv` 通过名称删除环境
 >比如我创建了2个环境分别叫 tf 和 torch ,分别用来运行 tensorflow 和 pytorch
 
+![conda_env](../assets/1618627745623.jpg)
+
 ## GPU支持(选装，cpu选手跳过)
 1. 安装`cudatoolkit`
 ```
@@ -30,6 +32,7 @@ pip install -i https://pypi.tsinghua.edu.cn/simple tensorflow
 ```
 1. 使用pytorch
 pytorch 官网有anaconda安装指引，选择环境直接导出命令
+![pytorch install](../assets/1618631817424.jpg)
 ```
 conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
 ```
@@ -38,7 +41,8 @@ conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
 1. 下载安装
 2. 配置`python interpreter`（解释器）
     + 新建工程project
+    ![new project](../assets/1618630658350.jpg)
     + 选择`Existing interpreter`>`Conda Environment`>选择`interpreter`
         + 分支1，anaconda安装未勾选环境变量，需要手动查找。一般在`[Anaconda安装目录]/[你的环境名]/python.exe`
-        + 分支2，勾选了环境变量。应该能自动显示python.exe
-        
+        + 分支2，勾选了环境变量。应该能自动显示`python.exe`
+    ![conda path](../assets/1618630726124.jpg)
