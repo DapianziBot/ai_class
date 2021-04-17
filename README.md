@@ -1,11 +1,18 @@
 # 智能化方法_练习01
-
-## 介绍
 基于深度学习的练习项目
 
 ## 传送门
-+ [环境安装 -- Anaconda + Pycharm](./docs/env.md)
-+ [Pytorch demo](./tests/pytorch_demo.py)
+### 1. [环境安装 -- Anaconda + Pycharm](./docs/env.md)
++ [pytorch环境视频教程](https://www.bilibili.com/video/BV1j64y1D748?p=3)
+
+### 2. Pytorch 学习 
++ [【完整版】PyTorch入门实战](https://www.bilibili.com/video/BV1j64y1D748)
+    
+### 3. [Pytorch demo](./tests/pytorch_demo.py)
+
+### 4. 深度学习课程推荐
++ [[双语字幕]吴恩达深度学习deeplearning.ai](https://www.bilibili.com/video/BV1FT4y1E74V)
++ [清华大学-数据挖掘：理论与算法（国家级精品课）](https://www.bilibili.com/video/BV154411Q7mG)
 
 ## 小作业
 + PCA算法实现
@@ -14,20 +21,8 @@
     + [整理一份详细的数据预处理方法 -- 知乎](https://zhuanlan.zhihu.com/p/51131210)
     + [2.1.1 数据清洗 -- 清华大学-数据挖掘：理论与算法](https://www.bilibili.com/video/BV154411Q7mG?p=11)
 
-## 运行环境 & 入门推荐
-1. 安装Python(推荐 3.8+)
-+ Windows
-+ MacOS/Linux 系统部分软件依赖`python2.7`,建议将新安装的python3版本命名为`python3`or`python3.x`
-2. 运行第一个python程序
-3. 安装并运行`tensorflow`/`pytorch`或者其他框架
-    + [TensorFlow](https://www.tensorflow.org/tutorials/quickstart/beginner) 
-    + [PyTorch](https://pytorch.org/get-started/locally/)
-4. 深度学习课程推荐
-    + [[双语字幕]吴恩达深度学习deeplearning.ai](https://www.bilibili.com/video/BV1FT4y1E74V)
-    + [清华大学-数据挖掘：理论与算法（国家级精品课）](https://www.bilibili.com/video/BV154411Q7mG)
 
 ## 协作工具
-
 + #### Git 
     + 为什么要使用Git？
         + 提供代码托管仓库，可随时拉取完整项目代码
@@ -48,4 +43,4 @@
         + Professional 专业版需要购买or破解
     + `vs code` 宇宙第一IDE。。(自带git)
         + [vscode 官方下载地址](https://code.visualstudio.com/download)
-    + 其他..
+    + `Spyder` (略)
