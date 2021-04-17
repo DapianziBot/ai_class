@@ -3,6 +3,10 @@
 ## 介绍
 基于深度学习的练习项目
 
+## 传送门
++ [环境安装 -- Anaconda + Pycharm](./docs/env.md)
++ [Pytorch demo](./tests/pytorch_demo.py)
+
 ## 小作业
 + PCA算法实现
     + [PCA 降维算法 —— 原理与实现 -- 知乎](https://zhuanlan.zhihu.com/p/36546123)

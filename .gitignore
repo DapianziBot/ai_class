@@ -119,3 +119,7 @@ dmypy.json
 
 # mac os
 .DS_Store
+
+# project
+/data
+/models
