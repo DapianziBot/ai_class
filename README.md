@@ -1,25 +1,28 @@
 # 智能化方法_练习01
 基于深度学习的练习项目
 
-## 传送门
-### 1. [环境安装 -- Anaconda + Pycharm](./docs/env.md)
-+ [pytorch环境视频教程](https://www.bilibili.com/video/BV1j64y1D748?p=3)
-
-### 2. Pytorch 学习 
-+ [【完整版】PyTorch入门实战](https://www.bilibili.com/video/BV1j64y1D748)
-    
-### 3. [Pytorch demo](./tests/pytorch_demo.py)
-
-### 4. 深度学习课程推荐
-+ [[双语字幕]吴恩达深度学习deeplearning.ai](https://www.bilibili.com/video/BV1FT4y1E74V)
-+ [清华大学-数据挖掘：理论与算法（国家级精品课）](https://www.bilibili.com/video/BV154411Q7mG)
-
 ## 小作业
 + PCA算法实现
     + [PCA 降维算法 —— 原理与实现 -- 知乎](https://zhuanlan.zhihu.com/p/36546123)
 + 数据预处理
     + [整理一份详细的数据预处理方法 -- 知乎](https://zhuanlan.zhihu.com/p/51131210)
     + [2.1.1 数据清洗 -- 清华大学-数据挖掘：理论与算法](https://www.bilibili.com/video/BV154411Q7mG?p=11)
++ 图像卷积算子和池化
+    + [卷积神经网络简介 P94-P97](https://www.bilibili.com/video/BV1hK411w7ei?p=94)
+
+
+## 传送门
+### 1. 环境安装
++ [Anaconda + Pycharm 安装指引文档](./docs/env.md)
++ [pytorch环境视频教程](https://www.bilibili.com/video/BV1j64y1D748?p=3)
+
+### 2. Pytorch 学习 
++ [【完整版】PyTorch入门实战](https://www.bilibili.com/video/BV1j64y1D748)
++ [Pytorch 入门 demo](./tests/pytorch_demo.py)
+
+### 3. 深度学习课程推荐
++ [[双语字幕]吴恩达深度学习deeplearning.ai](https://www.bilibili.com/video/BV1FT4y1E74V)
++ [清华大学-数据挖掘：理论与算法（国家级精品课）](https://www.bilibili.com/video/BV154411Q7mG)
 
 
 ## 协作工具
