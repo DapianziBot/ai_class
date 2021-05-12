@@ -7,8 +7,27 @@
 + 数据预处理
     + [整理一份详细的数据预处理方法 -- 知乎](https://zhuanlan.zhihu.com/p/51131210)
     + [2.1.1 数据清洗 -- 清华大学-数据挖掘：理论与算法](https://www.bilibili.com/video/BV154411Q7mG?p=11)
-+ 图像卷积算子和池化
-    + [卷积神经网络简介 P94-P97](https://www.bilibili.com/video/BV1hK411w7ei?p=94)
++ 卷积神经网络
+    1. 卷积核（算子）
+        + 全零填充
+        + 5x5 vs 2层3x3
+    2. 卷积特征提取器 -- CBAPD
+        + 卷积 Convolutional
+        + 批标准化 BatchNormalization
+        + 激活 Activation
+        + 池化 Pooling
+        + 舍弃 Dropout
+        + 全连接 FC
+    3. 经典cnn介绍
+        1. LeNet
+        2. AlexNet
+        3. VGGNet
+        4. InceptionNet
+        5. ResNet
+    4. 学习视频：
+        + [【西安科技大学】卷积神经网络简介 P94-P97](https://www.bilibili.com/video/BV1hK411w7ei?p=94)
+        + [【北京大学】经典CNN讲解 P33-P41](https://www.bilibili.com/video/BV1Cg4y1q7Xq?p=33)
+        + [《PyTorch深度学习实践》卷积神经网络 P10-P11](https://www.bilibili.com/video/BV1Y7411d7Ys?p=10)
 
 
 ## 传送门
