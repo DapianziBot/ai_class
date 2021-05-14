@@ -2,15 +2,15 @@ import torch
 from torch import nn
 from torch.utils.data import DataLoader
 from torchvision import datasets
-from torchvision.transforms import ToTensor, Lambda, Compose
-import matplotlib.pyplot as plt
+from torchvision.transforms import ToTensor
+
 from config import ROOT_PATH
 
 print(f'Pytorch version: {torch.__version__}')
 
 # ======================================================
 # 下载并读取数据集
-data_path = ROOT_PATH + "/data"
+data_path = ROOT_PATH + "/resources/data"
 training_data = datasets.FashionMNIST(
     root=data_path,
     train=True,
@@ -50,7 +50,7 @@ class DemoNeuralNetwork(nn.Module):
         self.flatten = nn.Flatten()
         # 下面大概是3层网络
         self.linear_relu_stack = nn.Sequential(
-            nn.Linear(28*28, 512),
+            nn.Linear(28 * 28, 512),
             nn.ReLU(),
             nn.Linear(512, 512),
             nn.ReLU(),
@@ -116,25 +116,23 @@ def test(dataloader, model):
         # 求平均
         test_loss /= size
         correct /= size
-        print(f"Test Error: \n Accuracy:  {(100*correct):>0.1f}%, Avg loss: {test_loss:>8f} \n")
+        print(f"Test Error: \n Accuracy:  {(100 * correct):>0.1f}%, Avg loss: {test_loss:>8f} \n")
 
 
 # ======================================================
 # 分5个批次，开始训练
 epochs = 5
 for t in range(epochs):
-    print(f"Epoch {t+1}\n{'='*50}")
+    print(f"Epoch {t + 1}\n{'=' * 50}")
     train(train_data_loader, model, loss_fn, optimizer)
     test(test_data_loader, model)
 print("Done!")
 
-
 # ======================================================
 # 保存模型
-path = ROOT_PATH + "/models/fashion_MNIST_demo.pth"
+path = ROOT_PATH + "/resources/models/fashion_MNIST_demo.pth"
 torch.save(model.state_dict(), path)
 print(f"Saved PyTorch Model State to '{path}'")
-
 
 # ======================================================
 # 读取模型 & 测试
@@ -160,4 +158,3 @@ with torch.no_grad():
     pred = model(x)
     predicted, actual = classes[pred[0].argmax(0)], classes[y]
     print(f"识别为: '{predicted}', 实际是: '{actual}'")
-

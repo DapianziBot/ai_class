@@ -121,5 +121,4 @@ dmypy.json
 .DS_Store
 
 # project
-/data
-/models
+/resources

@@ -53,7 +53,7 @@
     
     + [Git 常用操作步骤举例](./docs/git.md)
     + Git 教程 (感谢李锡铭同学提供)
-        + [从0开始学习GitHub系列.pdf](./assets/从0开始学习GitHub系列.pdf)
+        + [从0开始学习GitHub系列.pdf](docs/assets/从0开始学习GitHub系列.pdf)
         + [【狂神说Java】Git最新教程通俗易懂](https://www.bilibili.com/video/BV1FE411P7B3)
         + [【编程三分钟】Git + GitHub 10分钟完全入门](https://www.bilibili.com/video/BV1KD4y1S7FL)
 
